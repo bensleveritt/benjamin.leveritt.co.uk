@@ -7,10 +7,7 @@
 
 <Hr />
 
-<p>
-	Hello! I'm Ben. I'm a designer, engineer, and learner. I'm also an optimistic futurist and budding
-	essayist.
-</p>
+<p>Hello there! I'm Benjamin. I make stuff, think about things and write sometimes.</p>
 
 <p>
 	I have a <a href="/now">now</a> page, if you're into that sort of thing.
