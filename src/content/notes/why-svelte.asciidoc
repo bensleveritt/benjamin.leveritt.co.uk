@@ -1,12 +1,14 @@
+:title: Why Svelte?
+:created: 2025-07-01
+:updated: 2025-07-28
+
 = Why Svelte?
 
 I like Svelte because it aligns with my philosophy that technology should serve humans, and not the other way around.
-
-Svelte does all the hard work during compile time, on my computer*, not on yours. When you see content on a React site you're actually downloading the whole compiler to your device, then running it to render the page.
 
 == Is it worth it?
 
 Yes. This site is made with SvelteKit, and honestly it was easy to put together.
 
 [sidebar]
-Hello there
+I quite like the way SvelteKit handles routing.
