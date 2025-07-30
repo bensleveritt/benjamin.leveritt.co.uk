@@ -50,7 +50,7 @@
 
 /* Swiss Typography - Minimal */
 body {
-  font-family: Charter, 'Bitstream Charter', serif;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.5;
   color: #000;
   background: #fff;
@@ -58,7 +58,6 @@ body {
 }
 
 h1 { 
-  font-family: "Crimson Pro", -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 400;
 	font-size: 2.5rem;
   letter-spacing: -0.02em;
@@ -66,7 +65,6 @@ h1 {
  }
 
 h2, h3 {
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 400;
   line-height: 1.1;
 }

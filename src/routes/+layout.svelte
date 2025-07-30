@@ -15,6 +15,7 @@
 			<a href="/">Home</a>
 			<a href="/portfolio">Portfolio</a>
 			<a href="/notes">Notes</a>
+			<a href="/blog">Blog</a>
 		</nav>
 	</header>
 	{@render children()}

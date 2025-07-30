@@ -2,7 +2,7 @@
 	let { data } = $props();
 </script>
 
-<h1>Notes</h1>
+<h2>Notes</h2>
 
 <p>There are {data.entries.length} notes.</p>
 
