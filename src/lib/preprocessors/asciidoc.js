@@ -28,7 +28,7 @@ function asciidoc() {
   return {
     name: 'asciidoc',
     markup({ content, filename }) {
-      if (filename.endsWith('.asciidoc')) {
+      if (filename.endsWith('.asciidoc') || filename.endsWith('.adoc')) {
         return html(content);
       }
     }

@@ -1,0 +1,12 @@
+:created: 2025-07-30
+:updated: 2025-07-30
+:title: Quick interactables for education with Claude
+:draft: true
+
+Claude can now build little interactble tools if you ask if nicely. I wanted to explain parabolic arcs to my son, and he's very visual and hands on (though I have every confidence that the maths will be interesting to him soon enough).
+
+I'm a big fan of interactive tools for education. The best ones are small, simple and convey one concept well.
+
+Examples of interactive tools for education include:
+
+* Those tasty buttons at the Science Centre.

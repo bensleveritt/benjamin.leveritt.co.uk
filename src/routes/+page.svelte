@@ -2,11 +2,15 @@
 	import Hr from '$lib/components/Hr.svelte';
 </script>
 
-<h1>Benjamin S. Leveritt</h1>
-<h2>Design Engineer.<br /> Optimistic futurist.<br /> Budding essayist.</h2>
+<div>
+	<img src="/bsl-headline.svg" alt="BSL" style="width: 100%;" />
+	<h1 class="hidden">Benjamin S. Leveritt</h1>
+</div>
+
+<h2>Design engineer.<br /> Optimistic futurist.<br /> Budding essayist.</h2>
 
 <Hr />
 
-<h3>Featured Projects</h3>
+<!-- <h3>Featured Projects</h3>
 
-<a href="/portfolio">For more projects, visit my portfolio</a>
+<a href="/portfolio">For more projects, visit my portfolio</a> -->
