@@ -132,6 +132,7 @@ main p {
 	font-size: var(--step-4);
 	line-height: 1.1;
 }
+
 .blog h2 {
 	font-size: var(--step-2);
 	text-transform: inherit;
