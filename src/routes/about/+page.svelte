@@ -1,16 +1,15 @@
 <main>
 	<h1>About</h1>
 
-	<p>Hi. I'm Ben. I make stuff. You're looking at one of those things right now.</p>
+	<p>Hi. I'm Benjamin. I make things. You're looking at one of those things right now.</p>
 
 	<h2>Colophon*</h2>
 
-	<p>Fraunces, Newsreader, and a fluid type scale.</p>
+	<p><em>Typography:</em> Fraunces, Newsreader, and a fluid type scale.</p>
 	<p>
-		Made with SvelteKit. You can see all of this <a
-			href="https://github.com/bensleveritt/benjamin.leveritt.co.uk">on GitHub</a
-		>.
+		<em>Technology:</em> Made with SvelteKit. You can see all of this
+		<a href="https://github.com/bensleveritt/benjamin.leveritt.co.uk">on GitHub</a>.
 	</p>
 
-	<p>* Colophon is a made-up word, but this is how it's made</p>
+	<p>* Colophon is a made-up word meaning <em>"how it's made"</em></p>
 </main>
