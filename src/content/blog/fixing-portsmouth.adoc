@@ -3,7 +3,10 @@
 :title: Fixing, Sharing, and Building Community in Portsmouth
 :draft: true
 
-I've always believed that if something can be fixed, it probably should be. That mindset started early, tinkering with electronics, patching things up around the house, and generally trying to make things last. It's a way of thinking that stuck with me, even as my career took me into UX and UI design. And more recently, it's what led me to help start a charity here in Portsmouth: a Repair Café and Library of Things, built around the simple idea that we don't always need to buy new.
+[.lead]
+I've always believed that if something can be fixed, it probably should be. That mindset started early, tinkering with electronics, patching things up around the house, and generally trying to make things last. It's a way of thinking that stuck with me, even as my career took me into UX and UI design.
+
+More recently, it's what led me to help start a charity here in Portsmouth: a Repair Café and Library of Things, built around the simple idea that we don't always need to buy new.
 
 At our Repair Café, volunteers come together once a month to help people fix everything from vacuum cleaners to trousers. We share tools, knowledge, and cups of tea. I even trained in PAT testing and learned how to sharpen scissors and kitchen knives with whetstones, a surprisingly satisfying skill to pick up in your 30s!
 

@@ -2,13 +2,14 @@
 :updated: 2025-08-05
 :title: How a childhood fascination with Robots Led Me to a Career in AI and UX Engineering.
 
+[.lead]
 When people ask how I first got into artificial intelligence and robotics, I usually have to think back, not to a specific class or a standout project, but to something more gradual. It started when I was a kid in the '90s, slowly becoming obsessed with the idea that machines could think, learn, or even feel. I didn't have the language for it back then, but something about intelligent systems; robots in films, characters on TV, and eventually LEGO kits on my bedroom floor, lit a spark that never really gone out.
 
 
 I was about 10 when I first became properly fascinated by the idea of machines that could think. I couldn't have put it in those words at the time, but something about robots and artificial minds really grabbed me. I wasn't building circuits in my bedroom or entering science competitions, I was just watching stories where technology came to life in ways that felt oddly human.
 
 
-Early Sparks: Robots with Personality
+== Early Sparks: Robots with Personality
 
 
 Star Wars was one of the first things that captured my imagination. The droids, C-3PO with his anxious commentary and R2-D2's expressive beeping. They weren't just background characters. They had agency, emotions, and a kind of charm that made them feel like part of the crew. Artoo didnt even speak in words, but somehow, you always knew exactly what he meant. That idea, of connecting with a machine through behaviour, not language—has stuck with me ever since.
@@ -19,22 +20,21 @@ Even though I didn't realise it at the time, those stories planted deep question
 
 
 
-From Sketchbooks to LEGO Mindstorms
+== From Sketchbooks to LEGO Mindstorms
 
 Like a lot of kids in the 90s, I spent hours sketching imaginary robots in my notebooks. Robots that could do your homework, tidy your room, make your toast. Then something game-changing came along: LEGO Mindstorms.
 
 Getting my hands on Mindstorms was probably the first time I felt like I was actually creating, not just imagining. I could design a robot, programme its behaviour, and watch it respond to the world. It was clunky and limited, sure, but to me, it was magic. The idea that code could shape how a machine moved, sensed, and interacted lit something up in me that never really faded. Looking back, it was probably my first attempt at designing human-machine interaction.
 
-From Curious Kid to UX and AI Professional
+== From Curious Kid to UX and AI Professional
 
 That early curiosity led me to study artificial intelligence and robotics at university. And while my career has largely been in UX/UI design over the past 20 years, the connection has always been clear to me. Designing user experiences is about understanding how people think, behave, and connect with technology. AI just adds a new layer: how the technology thinks back.
 
 Now I spend a lot of my time thinking about how to shape intelligent systems to communicate; how they explain themselves, build trust, and make sense to real users. And even now, those childhood questions are still with me.
 
 
-Still Following the Thread
+== Still Following the Thread
 
+Every now and then, I'll come across a new bit of AI. An assistant, a robot, a system learning something unexpected, and I'll get that same feeling I had at 10. The same question: Can machines really understand us? And what does it mean if they do?
 
-Every now and then, I’ll come across a new bit of AI. An assistant, a robot, a system learning something unexpected, and I’ll get that same feeling I had at 10. The same question: Can machines really understand us? And what does it mean if they do?
-
-It wasn’t a formal path, or a master plan. Just a handful of stories that made me look at technology differently, and I’ve been following that thread ever since.
+It wasn't a formal path, or a master plan. Just a handful of stories that made me look at technology differently, and I've been following that thread ever since.

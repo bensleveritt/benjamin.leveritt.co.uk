@@ -1,3 +1,24 @@
+/* @link https://utopia.fyi/type/calculator?c=360,18,1.2,1240,20,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+	/* Step -2: 12.5px → 11.2556px */
+	--step--2: clamp(0.7035rem, 0.8131rem + -0.1414vw, 0.7813rem);
+	/* Step -1: 15px → 15.0038px */
+	--step--1: clamp(0.9375rem, 0.9374rem + 0.0004vw, 0.9377rem);
+	/* Step 0: 18px → 20px */
+	--step-0: clamp(1.125rem, 1.0739rem + 0.2273vw, 1.25rem);
+	/* Step 1: 21.6px → 26.66px */
+	--step-1: clamp(1.35rem, 1.2206rem + 0.575vw, 1.6663rem);
+	/* Step 2: 25.92px → 35.5378px */
+	--step-2: clamp(1.62rem, 1.3741rem + 1.0929vw, 2.2211rem);
+	/* Step 3: 31.104px → 47.3719px */
+	--step-3: clamp(1.944rem, 1.5281rem + 1.8486vw, 2.9607rem);
+	/* Step 4: 37.3248px → 63.1467px */
+	--step-4: clamp(2.3328rem, 1.6726rem + 2.9343vw, 3.9467rem);
+	/* Step 5: 44.7898px → 84.1745px */
+	--step-5: clamp(2.7994rem, 1.7924rem + 4.4755vw, 5.2609rem);
+}
+
 @font-face {
 	font-family: 'Fraunces';
 	font-display: swap;
@@ -44,14 +65,14 @@ h1,
 h2,
 h3 {
 	font-weight: 400;
-	font-size: 2.5rem;
+	font-size: var(--step-2);
 	letter-spacing: 0.02em;
 	line-height: 1.25;
 	font-family: 'Fraunces', serif;
 }
 
 h1 {
-	font-size: 4rem;
+	font-size: var(--step-5);
 	font-variation-settings: 'opsz' 144;
 	font-style: italic;
 }
@@ -59,13 +80,13 @@ h1 {
 h2 {
 	font-weight: semibold;
 	font-variation-settings: 'opsz' 144;
-	font-size: 2rem;
+	font-size: var(--step-3);
 	letter-spacing: 0.05em;
 	text-transform: uppercase;
 }
 
 h3 {
-	font-size: 1.5rem;
+	font-size: var(--step-1);
 	font-style: italic;
 }
 
@@ -74,7 +95,7 @@ nav {
 	display: flex;
 	gap: 2rem;
 	font-family: sans-serif;
-	font-size: 0.9rem;
+	font-size: var(--step--1);
 	font-weight: 500;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
@@ -98,7 +119,20 @@ a {
 }
 
 main p {
-	font-size: 1rem;
+	font-size: var(--step-0);
 	line-height: 1.6;
 	max-width: 65ch;
+}
+
+.lead p {
+	font-size: var(--step-1);
+}
+
+.blog h1 {
+	font-size: var(--step-4);
+	line-height: 1.1;
+}
+.blog h2 {
+	font-size: var(--step-2);
+	text-transform: inherit;
 }

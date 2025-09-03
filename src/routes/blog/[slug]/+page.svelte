@@ -2,14 +2,16 @@
 	let { data } = $props();
 </script>
 
-<p><a href="/blog">Back to blog</a></p>
-<article>
-	<h3>{data.title}</h3>
+<p><a href="/blog">&larr; Back to blog</a></p>
+<article class="blog">
+	<h1>{data.title}</h1>
 	<p>
-		Created: {new Date(data.created).toLocaleDateString()}
-		{#if data.updated && data.updated !== data.created}
-			| Updated: {new Date(data.updated).toLocaleDateString()}
-		{/if}
+		<em
+			>Created: {new Date(data.created).toLocaleDateString()}
+			{#if data.updated && data.updated !== data.created}
+				• Updated: {new Date(data.updated).toLocaleDateString()}
+			{/if}
+		</em>
 	</p>
 	{@html data.content}
 </article>
