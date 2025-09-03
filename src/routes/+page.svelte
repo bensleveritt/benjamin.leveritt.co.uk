@@ -3,8 +3,8 @@
 </script>
 
 <div>
-	<img src="/bsl-headline.svg" alt="BSL" style="width: 100%;" />
-	<h1 class="hidden">Benjamin S. Leveritt</h1>
+	<!-- <img src="/bsl-headline.svg" alt="BSL" style="width: 100%;" /> -->
+	<h1>Benjamin S. Leveritt</h1>
 </div>
 
 <h2>Design engineer.<br /> Optimistic futurist.<br /> Budding essayist.</h2>

@@ -1,0 +1,54 @@
+/* Ultra-Swiss 12-Column Grid - Minimal & Systematic */
+
+:root {
+	--grid-gap: 1.5rem;
+	--grid-max: 1200px;
+	--content-margin: 2rem;
+}
+
+/* Single grid container */
+.page {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	gap: var(--grid-gap);
+	max-width: var(--grid-max);
+	margin: 0 auto;
+	padding: var(--content-margin);
+}
+
+/* Default: All content spans middle 8 columns (Swiss asymmetry) */
+.page > * {
+	grid-column: 1 / 9;
+}
+
+/* Semantic overrides - only when needed */
+.page > header,
+.page > nav,
+.page > footer {
+	grid-column: 1 / -1;
+}
+
+.page > .wide {
+	grid-column: 2 / -2;
+}
+
+.page > .narrow {
+	grid-column: 4 / 10;
+}
+
+/* That's it. Responsive handled by implicit behavior */
+@media (max-width: 768px) {
+	.page {
+		grid-template-columns: 1fr;
+		padding: 1rem;
+	}
+
+	.page > * {
+		grid-column: 1;
+	}
+}
+
+.hidden {
+	position: absolute;
+	left: -9999px;
+}
