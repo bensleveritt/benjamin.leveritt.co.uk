@@ -10,4 +10,6 @@
 	<article>
 		<h3><a href={`/blog/${entry.slug}`}>{entry.title}</a></h3>
 	</article>
+{:else}
+	<p>Nothing here yet. Check back soon.</p>
 {/each}
