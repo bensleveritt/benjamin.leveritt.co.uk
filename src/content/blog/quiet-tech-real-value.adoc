@@ -1,0 +1,76 @@
+:created: 2025-08-21
+:title: Quiet Tech, Real Value: Why Ethical Design and Small AI Will Be Big Business
+
+By someone who's been in UX, UI and AI since before it was cool
+
+Throughout my career, I've worked at the intersection of design, development and AI. My background includes a degree in Artificial Intelligence and Robotics, extensive experience in frontend systems and UX and UI design, and most recently, a real interest in small language models and agentic AI systems.
+
+Over the years I've developed a strong belief:
+The most valuable technology isn't just clever or new. It's the kind that quietly fits into people's lives and just works.
+
+That kind of tech isn't only meaningful. It's profitable.
+
+== Designing for Long-Term Value
+
+When tools are genuinely useful , when they make someone's day easier, save them time or reduce their stress, people come back to them.
+
+That loyalty, trust and consistency give digital products real commercial power. It leads to higher retention, reduced churn, better user reviews, lower support costs and more word-of-mouth growth.
+This is the outcome of good UX and clear systems thinking.
+
+Here are a few specific ways my approach to design, AI and systems thinking can directly translate into commercial impact.
+
+
+1. Lower Infrastructure Costs with Small and Local AI
+ Small language models can run on-device or at the edge. This reduces dependency on expensive cloud infrastructure. It also addresses privacy concerns, which are especially important in sectors like healthcare or local government.
+
+
+2. Faster Load Times Increase Conversions
+ Focus on lightweight and efficient frontend development. Faster and more accessible experiences lead to better engagement and higher conversion rates. This applies whether the goal is signups, purchases or task completion.
+
+
+3. Reduce Churn by Building Trust and Clarity
+ Products that feel intuitive and respectful keep people coming back. That means fewer drop-offs, lower customer support costs and stronger brand loyalty. This is especially important for older users or anyone who feels unsure around digital products.
+
+
+4. Smarter Systems Automate Repetitive Work
+ Agentic AI systems can handle small but repetitive tasks. These include scheduling, summarising, triaging messages or supporting admin workflows. This reduces workload for teams and allows more focus on high-value work.
+
+5. Inclusive Design Unlocks New Markets
+ I design with accessibility and inclusion in mind. This is good for people and also good for business. Products that serve older adults, people with disabilities or users with lower digital confidence have a broader reach and create new opportunities.
+
+
+6. Transparent Systems Reduce Risk
+ Large and opaque AI models introduce long-term risk. Small and interpretable systems are easier to audit, easier to explain and safer to deploy in real-world or regulated environments.
+
+These approaches help create systems that are more efficient to run, easier to maintain, simpler to train, safer to deploy and more likely to be adopted.
+
+
+== Small Models, Big Potential
+
+Most of my recent thinking has been around small language models. Not the sprawling generalist models everyone's heard of, but lightweight, focused, transparent tools that run locally or on low-power devices.
+
+These kinds of models don't just reduce infrastructure costs (although they do). They also unlock new possibilities:
+
+Running AI without sending private data to the cloud
+Building fast, responsive tools that actually feel helpful
+Creating systems that users can understand and even customise
+Supporting older people or vulnerable users without overwhelming them
+Embedding intelligence into everyday environments; homes, libraries, schools, community hubs
+
+
+We're talking about useful, safe, grounded systems that are easier to trust and cheaper to maintain.
+
+== Real life to Real-World AI
+
+I often think about how things in my personal life affect how I think about my work. This has taught me a lot about systems thinking in the real world.
+
+Everything has to work for people with different needs, skills, and access. It has to be inclusive, affordable, easy to use, and built around shared trust. That mindset has deeply influenced how I approach technology.
+
+Because when you stop designing for the "average" user, and start designing for real people in specific situations, something shifts. The product becomes clearer. The outcomes become stronger. And the value becomes obvious.
+
+
+== What I'm Looking For
+
+I love to work with teams who see technology as something that should fit into people's lives, not force people to adapt to it. Who care about the impact, not just the output. Who are excited about practical, respectful, human-first AI.
+
+If you're building tools for education, care, local government, sustainability, or anything that touches real human contexts, and want someone who can help shape the systems behind the screen, I'd love to talk.

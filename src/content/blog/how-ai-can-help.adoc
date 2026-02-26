@@ -1,0 +1,89 @@
+:created: 2025-08-27
+:updated: 2025-08-27
+:title: How AI Can Help Your Business - And How to Use It Wisely
+
+AI is everywhere in the headlines right now. From large language models writing articles to image generators creating entire campaigns, it can feel overwhelming to know what's real, what's hype, and what's actually useful.
+
+But here's the thing: AI doesn't have to be about replacing people, chasing the latest shiny model, or burning through energy just to show you're "keeping up." AI should be about making work more human, sustainable, and effective.
+
+With 20 years experience in design, UX, and development and a degree in AI and robotics, I've watched technology trends rise and fall. The businesses that benefit most from them aren't the ones that jump on the hype train; they're the ones that look for small, specific, human-centred applications of new tools. That's especially true with AI.
+
+In fact, I believe small language models and agentic AI systems (lightweight, focused, and aligned to your unique needs) are the future. They're efficient, ethical, and they can be trained or customised for your business without huge cost or complexity.
+
+So, how can AI genuinely help your business? Let's break it down industry by industry.
+
+Retail & E-commerce
+
+For retailers, AI can feel like a natural fit, but the key is to move beyond gimmicks. Imagine:
+
+A personal shopping assistant that learns each customer's style and budget, helping them find what they'll actually love rather than pushing random products.
+Inventory optimisation that predicts demand more accurately, so you don't overspend on stock or lose sales by running out.
+Smarter customer support chatbots that don't frustrate people with canned answers, but actually resolve their queries quickly.
+
+
+The result? Higher customer satisfaction and lower operational waste, financial and environmental.
+
+Healthcare & Care Services
+
+This is a sector close to my heart. I've been particularly interested in how technology can support older people, helping them stay independent and connected. AI can help here in powerful ways:
+
+Virtual companions that provide conversation, reminders for medication, and even gentle prompts for physical activity.
+Admin automation that reduces the burden on staff, freeing them to spend more time with patients, not paperwork.
+Predictive care tools that spot patterns and highlight risks before they become problems.
+
+Done thoughtfully, AI in healthcare isn't about replacing professionals. It's about giving people more time to care.
+
+Education & Training
+
+As a home educator, I see every day how different learners need different approaches. AI can help teachers, trainers, and even parents by:
+
+Creating adaptive learning journeys tailored to each learner's strengths and weaknesses.
+Automating some of the repetitive admin and assessment, giving educators more time to focus on people, not paperwork.
+Designing immersive, interactive learning experiences that make knowledge stick.
+Helping with record keeping and generating reports and monitoring progress.
+
+AI can't and shouldn't replace teaching, but it can be a powerful assistant.
+
+Sustainability & Local Businesses
+
+One of my passions is sustainability. I worked with Share Portsmouth, a charity that runs a library of things and a repair cafe. I've seen how important (and challenging) it is to build systems that reduce waste and empower communities.
+
+AI can have a role here too:
+
+Smart energy monitoring for businesses to cut costs and emissions.
+AI systems that can help coordinate community initiatives, from scheduling to resource-sharing platforms.
+Intelligent logistics that reduce unnecessary journeys, saving fuel and money.
+Smart inventory, tracking patterns of usage to see what tools are borrowed most and what we should stock more of to better meets the needs of the community.
+
+AI isn't only for the biggest corporations. Used well, it can strengthen local economies and help small businesses become more resilient.
+
+
+Professional Services (Finance, Legal, Consultancy)
+
+These industries run on information and documents, which makes them perfect candidates for carefully designed AI support.
+
+Drafting standard documents and contracts with AI assistance.
+Analysing large datasets quickly to identify trends or risks.
+Enhancing client service with intelligent knowledge retrieval systems.
+Knowledge management. AI can save time searching old reports by offering insights across previous projects.
+Predictive forecasting. Financial advisors can use AI to model different scenarios for cash flow, investments or risk.
+
+The time saved can be reinvested in the higher-value human work: strategy, judgment, and relationships.
+
+
+Where I Can Help
+
+The question isn't "Should we use AI?" anymore. It's "How can we use AI in a way that makes sense for our people, our customers, and our future?"
+
+That's where I come in.
+
+My work sits at the intersection of AI and robotics, user-centred design, and sustainability. I don't just build tools for the sake of it, I work with clients to:
+
+Identify where AI can genuinely add value in your business.
+Prototype small, efficient AI systems tailored to your needs.
+Make sure those systems are ethical, sustainable, and usable.
+Support your team in integrating them without disruption.
+
+The organisations that thrive in the years ahead won't be the ones that adopt AI fastest, they'll be the ones that adopt it wisely.
+
+If you're curious about what AI could look like in your business, let's talk. The best businesses wont just adopt AI, they'll make it a part of how they create real value for people
