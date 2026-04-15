@@ -22,7 +22,7 @@ This is a SvelteKit-based personal website/blog that processes AsciiDoc content.
 
 ### Content System
 - Blog posts: `src/content/blog/*.adoc` - AsciiDoc files with metadata
-- Notes: `src/content/notes/*.asciidoc` - Digital garden style notes
+- Garden notes: `src/content/notes/*.asciidoc` - Digital garden style notes (served at `/garden`)
 - Custom AsciiDoc preprocessor at `src/lib/preprocessors/asciidoc.js` handles conversion to HTML
 - File-based routing with server-side loading of content metadata
 
@@ -30,7 +30,7 @@ This is a SvelteKit-based personal website/blog that processes AsciiDoc content.
 - `svelte.config.js` - Includes custom AsciiDoc preprocessor, extends file extensions to `.asciidoc`
 - `src/lib/preprocessors/asciidoc.js` - Core AsciiDoc to HTML conversion using asciidoctor.js
 - `src/routes/blog/+page.server.ts` - Loads blog entries from filesystem with metadata extraction
-- `src/routes/notes/+page.server.ts` - Similar pattern for notes
+- `src/routes/garden/+page.server.ts` - Similar pattern for garden notes
 
 ### Design Philosophy
 Follows Swiss functional design principles (see `docs/design-philosophy.md`):
@@ -46,3 +46,16 @@ Follows Swiss functional design principles (see `docs/design-philosophy.md`):
 - File extensions: `.adoc` for blog, `.asciidoc` for notes
 
 When adding content features, prioritize content clarity over visual complexity, following the established Swiss design principles.
+
+## Digital Garden Workflow
+
+When the user says "tend the garden", "find me something to post", or similar:
+
+1. **Discover**: Scan `~/org/roam/` for notes with real content (not stubs). Prioritise notes that are personally meaningful, interesting to others, and recently touched. Look for clusters of related notes.
+2. **Suggest**: Present 3-5 candidates with a one-line reason each. Let the user pick.
+3. **Draft**: Reshape the chosen org-mode note into an `.asciidoc` file in `src/content/notes/`. This is collaborative — not a mechanical conversion. Preserve the user's voice and keep it concise.
+4. **Verify**: Build the site to confirm the note renders.
+
+Notes should follow the existing format: `:title:`, `:created:` metadata, then AsciiDoc content. Filename becomes the slug.
+
+The user's org-roam collection has ~1,800+ notes dating back to 2019, covering technology, design, note-taking, science, and personal interests. Strong clusters exist around knowledge management, the indie/open web, and design practice.

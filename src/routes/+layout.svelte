@@ -14,7 +14,7 @@
 		<nav>
 			<a href="/">Home</a>
 			<!-- <a href="/portfolio">Portfolio</a> -->
-			<!-- <a href="/notes">Notes</a> -->
+			<a href="/garden">Garden</a>
 			<a href="/blog">Blog</a>
 			<a href="/about">About</a>
 		</nav>
