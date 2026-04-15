@@ -11,5 +11,7 @@
 		<a href="https://github.com/bensleveritt/benjamin.leveritt.co.uk">on GitHub</a>.
 	</p>
 
-	<p>* Colophon is a made-up word meaning <em>"how it's made"</em></p>
+	<p><small>* Colophon is a made-up word** meaning <em>"how it's made"</em>.</small></p>
+
+	<p><small>** All words are made up.</small></p>
 </main>
