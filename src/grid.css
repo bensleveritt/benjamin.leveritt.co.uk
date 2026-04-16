@@ -1,6 +1,6 @@
 :root {
 	--grid-gap: 1.5rem;
-	--grid-max: 1200px;
+	--grid-max: 768px;
 	--content-margin: 2rem;
 }
 
@@ -14,8 +14,11 @@
 	padding: var(--content-margin);
 }
 
-/* Default: All content spans middle 8 columns (Swiss asymmetry) */
-.page > * {
+/* Default: Content spans 9 columns, margin in 10-12 (9+3 split).
+   Broad selector needed because display:contents wrappers promote
+   nested children to grid items without changing their DOM parent. */
+.page > *,
+.page :where(main, article, .sect1, .sectionbody, #preamble) > * {
 	grid-column: 1 / 9;
 }
 
@@ -34,14 +37,31 @@
 	grid-column: 4 / 10;
 }
 
-/* That's it. Responsive handled by implicit behavior */
-@media (max-width: 768px) {
+/* Wrappers transparent to the page grid */
+main,
+article,
+.sect1,
+.sectionbody,
+#preamble,
+#preamble > .sectionbody {
+	display: contents;
+}
+
+/* Marginalia placement */
+.margin-note,
+.sidebarblock {
+	grid-column: 10 / -1;
+}
+
+@media (max-width: 480px) {
 	.page {
 		grid-template-columns: 1fr;
 		padding: 1rem;
 	}
 
-	.page > * {
+	.page > *,
+	.margin-note,
+	.sidebarblock {
 		grid-column: 1;
 	}
 }

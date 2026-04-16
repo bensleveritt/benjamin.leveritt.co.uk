@@ -1,4 +1,4 @@
-import asciidoctor from 'asciidoctor'
+import asciidoctor from 'asciidoctor';
 
 /**
  * Converts AsciiDoc content to HTML
@@ -6,9 +6,9 @@ import asciidoctor from 'asciidoctor'
  * @returns {{code: string}} - Object containing the HTML output
  */
 export function html(content) {
-  const Asciidoctor = asciidoctor()
-  const html = Asciidoctor.convert(content, { attributes: { 'showTitle': true}})
-  return { code: html.toString() }
+	const Asciidoctor = asciidoctor();
+	const html = Asciidoctor.convert(content, { attributes: { showTitle: true } });
+	return { code: html.toString() };
 }
 
 /**
@@ -16,8 +16,8 @@ export function html(content) {
  * @param {string} filename - The filename of the AsciiDoc
  */
 export function loadFile(filename) {
-  const Asciidoctor = asciidoctor()
-  return Asciidoctor.loadFile(filename, { attributes: { 'showTitle': true}})
+	const Asciidoctor = asciidoctor();
+	return Asciidoctor.loadFile(filename, { attributes: { showTitle: true } });
 }
 
 /**
@@ -25,14 +25,14 @@ export function loadFile(filename) {
  * @returns {{ name: string, markup: (params: { content: string, filename: string }) => { code: string } | undefined }}
  */
 function asciidoc() {
-  return {
-    name: 'asciidoc',
-    markup({ content, filename }) {
-      if (filename.endsWith('.asciidoc') || filename.endsWith('.adoc')) {
-        return html(content);
-      }
-    }
-  }
+	return {
+		name: 'asciidoc',
+		markup({ content, filename }) {
+			if (filename.endsWith('.asciidoc') || filename.endsWith('.adoc')) {
+				return html(content);
+			}
+		}
+	};
 }
 
-export default asciidoc
+export default asciidoc;

@@ -18,7 +18,7 @@ export const load: PageServerLoad = ({ params }) => {
 		const doc = loadFile(file);
 
 		return {
-			content: doc.toString()
+			content: doc.convert()
 		};
 	} catch (error) {
 		console.error('Error reading note file:', error);

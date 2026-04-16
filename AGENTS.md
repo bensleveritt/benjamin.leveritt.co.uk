@@ -50,17 +50,17 @@ static/
 
 ### Where to Look
 
-| Task | Location | Notes |
-| --- | --- | --- |
-| Add blog post | `src/content/blog/{slug}.adoc` | Must use `.adoc` extension |
-| Add note | `src/content/notes/{slug}.asciidoc` | Must use `.asciidoc` extension |
-| Modify content loading | `src/lib/preprocessors/asciidoc.js` | `loadFile()` returns Asciidoctor document object |
-| Content metadata format | Top of `.adoc`/`.asciidoc` files | `:title:`, `:created:`, `:updated:` attributes |
-| Grid layout / spacing | `src/grid.css` | `--grid-gap`, `--grid-max`, `--content-margin` |
-| Typography / font scale | `src/typography.css` | `--step--2` through `--step-5` (Utopia clamp) |
-| Global styles entry | `src/app.css` | Imports grid.css + typography.css only |
-| Add reusable component | `src/lib/components/` | Keep minimal — only if reused 2+ times |
-| Design reference | `docs/design-philosophy.md` | Decision framework for new features |
+| Task                    | Location                            | Notes                                            |
+| ----------------------- | ----------------------------------- | ------------------------------------------------ |
+| Add blog post           | `src/content/blog/{slug}.adoc`      | Must use `.adoc` extension                       |
+| Add note                | `src/content/notes/{slug}.asciidoc` | Must use `.asciidoc` extension                   |
+| Modify content loading  | `src/lib/preprocessors/asciidoc.js` | `loadFile()` returns Asciidoctor document object |
+| Content metadata format | Top of `.adoc`/`.asciidoc` files    | `:title:`, `:created:`, `:updated:` attributes   |
+| Grid layout / spacing   | `src/grid.css`                      | `--grid-gap`, `--grid-max`, `--content-margin`   |
+| Typography / font scale | `src/typography.css`                | `--step--2` through `--step-5` (Utopia clamp)    |
+| Global styles entry     | `src/app.css`                       | Imports grid.css + typography.css only           |
+| Add reusable component  | `src/lib/components/`               | Keep minimal — only if reused 2+ times           |
+| Design reference        | `docs/design-philosophy.md`         | Decision framework for new features              |
 
 ### Content System
 

@@ -11,17 +11,20 @@
 ## Key Elements
 
 ### Typography as Information Design
+
 - Hierarchy based on importance, not decoration
-- Consistent spacing that creates predictable rhythm  
+- Consistent spacing that creates predictable rhythm
 - Line lengths optimized for reading comprehension (45-75 characters)
 - Contrast that serves legibility, not drama
 
 ### Grid Systems
+
 - Mathematical relationships create predictable, scannable information hierarchy
 - Asymmetrical balance using proportional relationships
 - Whitespace as active design element that guides the eye
 
 ### Content Strategy
+
 - Write for understanding, not engagement
 - Clear headings that actually describe content
 - Links that add value, not distraction
@@ -37,8 +40,9 @@
 ## Practical Decision Framework
 
 When adding any element, ask:
+
 1. Does this serve the reader or my ego?
-2. Does this help or hinder comprehension?  
+2. Does this help or hinder comprehension?
 3. Is this the simplest solution that works?
 4. Would removing this make the experience better?
 
@@ -47,6 +51,7 @@ When adding any element, ask:
 This approach maps directly to the core belief that "technology should serve humans, and not the other way around." Swiss design is ethical design - prioritizing the reader's understanding over the designer's expression.
 
 **Anti-patterns to avoid:**
+
 - Decoration for its own sake
 - Features that feel impressive but don't serve purpose
 - Complexity that doesn't improve understanding
@@ -62,4 +67,4 @@ This approach maps directly to the core belief that "technology should serve hum
 
 ---
 
-*"By removing visual noise, you're respecting the reader's cognitive load. You're saying 'I've done the hard work of organizing this information so you don't have to.'"*
+_"By removing visual noise, you're respecting the reader's cognitive load. You're saying 'I've done the hard work of organizing this information so you don't have to.'"_

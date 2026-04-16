@@ -22,11 +22,10 @@ export const load: PageServerLoad = () => {
 				// Create slug from filename
 				const slug = file.replace('.asciidoc', '');
 
-				console.log(title);
-
 				return {
 					title,
-					slug
+					slug,
+					created: doc.getAttribute('created')
 				};
 			});
 	} catch (error) {
