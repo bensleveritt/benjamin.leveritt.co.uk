@@ -1,0 +1,4 @@
+# Response headers for Cloudflare Workers static assets (see wrangler.jsonc).
+# Cloudflare reads this file and does not serve it. Vercel serves it as a plain file.
+/feed.xml
+  Content-Type: application/rss+xml; charset=utf-8

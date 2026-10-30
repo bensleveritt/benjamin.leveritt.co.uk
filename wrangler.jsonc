@@ -1,0 +1,13 @@
+// Cloudflare Worker with static assets only. There is no Worker script.
+// Build first with `pnpm run build`, which writes the site to build/.
+{
+	"name": "benjamin-leveritt-co-uk",
+	"compatibility_date": "2026-10-30",
+	"assets": {
+		"directory": "./build",
+		// /about serves about.html. /about/ and /about.html redirect to /about.
+		"html_handling": "auto-trailing-slash",
+		// Unknown paths get build/404.html with a 404 status.
+		"not_found_handling": "404-page"
+	}
+}
