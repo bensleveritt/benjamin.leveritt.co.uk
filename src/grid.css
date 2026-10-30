@@ -60,6 +60,7 @@ article,
 	}
 
 	.page > *,
+	.page :where(main, article, .sect1, .sectionbody, #preamble) > *,
 	.margin-note,
 	.sidebarblock {
 		grid-column: 1;
