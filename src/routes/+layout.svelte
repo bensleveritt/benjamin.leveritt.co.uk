@@ -7,6 +7,7 @@
 
 <svelte:head>
 	<title>Benjamin S. Leveritt</title>
+	<link rel="alternate" type="application/rss+xml" title="Benjamin S. Leveritt" href="/feed.xml" />
 </svelte:head>
 
 <div class="plate">
