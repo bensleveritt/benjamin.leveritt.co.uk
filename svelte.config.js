@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-vercel';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import asciidoc from './src/lib/preprocessors/asciidoc.js';
 
@@ -9,10 +9,9 @@ const config = {
 	preprocess: [vitePreprocess(), asciidoc()],
 
 	kit: {
-		// adapter-auto only supports some environments, see https://svelte.dev/docs/kit/adapter-auto for a list.
-		// If your environment is not supported, or you settled on a specific environment, switch out the adapter.
-		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
-		adapter: adapter()
+		// Pin the function runtime: adapter-vercel 6.x only infers it on Node 20, 22 or 24,
+		// and Vercel builds with a newer Node.
+		adapter: adapter({ runtime: 'nodejs24.x' })
 	},
 
 	extensions: ['.svelte', '.svx', '.asciidoc']
