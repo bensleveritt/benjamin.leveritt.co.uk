@@ -1,3 +1,0 @@
-= VBS Tactics
-
-VBS Tactics is a tactical game for the Virtual Battlespace (VBS) series of games. 
