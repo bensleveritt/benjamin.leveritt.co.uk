@@ -22,13 +22,13 @@ export function loadFile(filename) {
 
 /**
  * Returns a SvelteKit preprocessor for AsciiDoc
- * @returns {{ name: string, markup: (params: { content: string, filename: string }) => { code: string } | undefined }}
+ * @returns {{ name: string, markup: (params: { content: string, filename?: string }) => { code: string } | undefined }}
  */
 function asciidoc() {
 	return {
 		name: 'asciidoc',
 		markup({ content, filename }) {
-			if (filename.endsWith('.asciidoc') || filename.endsWith('.adoc')) {
+			if (filename?.endsWith('.asciidoc') || filename?.endsWith('.adoc')) {
 				return html(content);
 			}
 		}

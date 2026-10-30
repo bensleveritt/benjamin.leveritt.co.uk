@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Hr from '$lib/components/Hr.svelte';
+	import Hr from '#lib/components/Hr.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;

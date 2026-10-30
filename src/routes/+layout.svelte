@@ -2,7 +2,7 @@
 	import '../app.css';
 
 	const { children } = $props();
-	import Page from '$lib/components/Page.svelte';
+	import Page from '#lib/components/Page.svelte';
 </script>
 
 <svelte:head>

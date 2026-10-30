@@ -1,7 +1,7 @@
 import type { PageServerLoad, EntryGenerator } from './$types';
 import { readdirSync } from 'node:fs';
 import { join } from 'node:path';
-import { loadFile } from '$lib/preprocessors/asciidoc';
+import { loadFile } from '#lib/preprocessors/asciidoc.js';
 
 const blogDir = join(process.cwd(), 'src', 'content', 'blog');
 
